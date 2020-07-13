@@ -5,7 +5,7 @@
 # Option to skip installation of spinnaker, if it already exists
 # or if OES is to be connected to existing spinnaker
 #
-installSpinnaker: true
+installSpinnaker: false
 
 # Set to true to expose spinnaker and deck services as LoadBalancers
 #
@@ -13,7 +13,7 @@ createIngress: false
 
 # Set it to false to skip the installation of Open LDAP server
 #
-installOpenLdap: true
+installOpenLdap: false
 
 # OES UI service type
 #
@@ -173,7 +173,7 @@ opa:
 #####################################################
 # Centralized Logging Configuration
 #####################################################
-enableCentralLogging: true
+enableCentralLogging: false
 elasticsearch:
   replicas: 1
   minimumMasterNodes: 1
